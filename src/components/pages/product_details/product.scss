@@ -1,0 +1,88 @@
+.product{
+    .heading{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+
+    .desc
+    {
+        display: flex;
+        .left{
+            flex: 4;
+            height: 22rem;
+            // border: 1px solid pink;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin: 1rem;
+            margin-left: 2rem;
+
+            img{
+                height: 20rem;
+                width: 20rem;
+
+                border-radius: 10px;
+            }
+        }
+
+        .right{
+            flex: 6;
+            margin-left: 10rem;
+            h1{
+                text-transform: capitalize;
+                font-size: 30px;
+                margin-bottom: 3px;
+            }
+
+            h2{
+                margin-top: 3px;
+                margin-left: 10px;
+                color: gray;
+                text-transform: capitalize;
+            }
+
+            .available{
+                width: 60%;
+                margin-left: 2rem;
+                background-color: lightgray;
+
+                padding-top: 10px;
+                border-radius: 10px;
+                h2{
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                }
+
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+
+                    list-style: none;
+
+                    li{
+                        flex-basis: 50%;
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        i{
+                            font-size: 2rem;
+                            color: #565656;
+                            text-align: center;
+                        }
+                        P{
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
