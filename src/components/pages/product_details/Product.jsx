@@ -12,8 +12,8 @@ function Product() {
         </div>
 
         <div className="right">
-          <h1>product title</h1>
-          <h2>location , city</h2>
+          <h1>Rental title</h1>
+          <h2>location details</h2>
 
           <div className="available">
             <h2>available</h2>
@@ -42,6 +42,11 @@ function Product() {
           </div>
         </div>
        </div>
+
+      <div className="confirmation">
+        <h1>rent : ₹10,000.00 / Month</h1>
+        <button> Book here ..</button>
+      </div>
       </section>
     </>
   )

@@ -1,4 +1,5 @@
 .product{
+    text-transform: capitalize;
     .heading{
         text-align: center;
         text-transform: capitalize;
@@ -32,7 +33,6 @@
             flex: 6;
             margin-left: 10rem;
             h1{
-                text-transform: capitalize;
                 font-size: 30px;
                 margin-bottom: 3px;
             }
@@ -41,7 +41,6 @@
                 margin-top: 3px;
                 margin-left: 10px;
                 color: gray;
-                text-transform: capitalize;
             }
 
             .available{
@@ -54,7 +53,6 @@
                 h2{
                     font-family: 'Times New Roman', Times, serif;
                     font-size: 20px;
-                    text-transform: capitalize;
                 }
 
                 ul{
@@ -77,12 +75,32 @@
                             color: #565656;
                             text-align: center;
                         }
-                        P{
-                            text-transform: capitalize;
-                        }
                     }
                 }
             }
+        }
+    }
+
+    .confirmation{
+        margin-top: 4rem;
+        text-align: center;
+        h1{
+            font-size: 2rem;
+        }
+
+        button{
+            height: 3.6rem;
+            width: 16rem;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.8rem;
+
+            font-family: sans-serif;
         }
     }
 }
